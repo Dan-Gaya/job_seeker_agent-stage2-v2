@@ -12,12 +12,12 @@
 3. Copy `.env.example` to `.env` and set `JSEARCH_API_KEY` (optional).
 
 4. Run:
-   python main.py
-   # or
-   uvicorn main:app --reload --port 5002
+  
+   ```uvicorn main:app --reload --port 5002```
 
 ## Test (curl)
-curl -X POST http://localhost:5002/a2a/jobseeker \
+
+ ```curl -X POST http://localhost:8000/a2a/jobseeker \
   -H "Content-Type: application/json" \
   -d '{
     "jsonrpc":"2.0",
@@ -37,4 +37,4 @@ curl -X POST http://localhost:5002/a2a/jobseeker \
         "blocking": true
       }
     }
-  }'
+  }'```

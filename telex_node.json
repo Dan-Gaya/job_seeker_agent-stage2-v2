@@ -1,0 +1,27 @@
+{
+  "active":false,
+  "category":"utilities",  
+  "description":"The Job Seeker Support Agent is an AI-powered tool that fetches real-time job listings based on user skills, role, or location, and provides smart career guidance and resume improvement tips.",
+  "id":"sGC3u7y4vBaZww0G",
+  "long_description":"AI-powered agent that helps users discover recent job listings in their preferred location or skill area, while also giving personalized resume and skill improvement tips.This agent aims to support employability by connecting users to real job data through open APIs and generating smart recommendations based on job market needs.",
+  "name":"JobSeekerAI",
+  "nodes": [
+    {
+      "id": "job_seeker_ai",
+      "name": "JobSeekerAI",
+      "parameter":{},
+      "position":[
+        816,  
+        -112
+      ],
+      "type": "a2a/generic-a2a-node",
+      "typeVersions":1,
+      "url": "https://b95bbtq0-8000.uks1.devtunnels.ms/a2a/jobseeker"
+    }
+  ],
+  "pinData":{},
+  "settings":{
+    "executionOrder":"v1"
+  },
+  "short_description":"The Job Seeker Support Agent is an AI-powered tool that fetches real-time job listings based on user skills, role, or location"
+}
